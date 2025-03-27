@@ -69,12 +69,11 @@ const EightBitComputer = () => {
         </ul>
       </div>
 
-
       {/* C-Day Poster */}
       <h2 className="text-2xl font-bold mt-8 mb-4">📜 Project Poster</h2>
       <div className="mb-4">
         <iframe
-          src="/UR-147_8-bit_Computer_Poster.pdf"
+          src={`${process.env.PUBLIC_URL}/UR-147_8-bit_Computer_Poster.pdf`}
           width="100%"
           height="500px"
           className="border rounded-lg shadow-md"
@@ -82,7 +81,7 @@ const EightBitComputer = () => {
         ></iframe>
         <div className="mt-2">
           <a
-            href="/UR-147_8-bit_Computer_Poster.pdf"
+            href={`${process.env.PUBLIC_URL}/UR-147_8-bit_Computer_Poster.pdf`}
             download="8-bit_Computer_Poster.pdf"
             className="px-6 py-2 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-400 transition inline-block"
           >
@@ -109,10 +108,10 @@ const EightBitComputer = () => {
         {["cday1.png", "cday2.png", "cday3.png"].map((img, index) => (
           <img
             key={index}
-            src={`/${img}`}
+            src={`${process.env.PUBLIC_URL}/${img}`}
             alt={`C-Day Presentation ${index + 1}`}
             className="w-full sm:w-48 h-32 object-cover rounded-lg shadow-md cursor-pointer hover:scale-105 transition-transform"
-            onClick={() => setSelectedImage(`/${img}`)}
+            onClick={() => setSelectedImage(`${process.env.PUBLIC_URL}/${img}`)}
           />
         ))}
       </div>
