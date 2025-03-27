@@ -41,17 +41,6 @@ const PizzaStore = () => {
         />
       </div>
 
-      {/* Download link for login page project */}
-      <h2 className="text-2xl font-bold mt-8 mb-4">📥 Download Login Page</h2>
-      <div className="mt-4 flex justify-center">
-        <a
-          href="/pizza-login.zip"
-          download="PizzaStore_Login.zip"
-          className="px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-400 transition"
-        >
-          📂 Download Login Page Files
-        </a>
-      </div>
     </div>
   );
 };
