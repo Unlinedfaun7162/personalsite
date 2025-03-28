@@ -26,7 +26,7 @@ const EightBitComputer = () => {
         </p>
         <p className="mt-2 text-lg text-gray-700">
           📢 Project was <strong className="text-gray-900">published online</strong>, with
-          <span className="text-green-600 font-semibold"> 63+ downloads/views</span>.
+          <span className="text-green-600 font-semibold"> 40+ downloads/views</span>.
         </p>
         <p className="mt-2 text-lg text-gray-700">
           🖥️ Successfully designed <span className="font-semibold">memory, control unit, and ALU functionality</span>
