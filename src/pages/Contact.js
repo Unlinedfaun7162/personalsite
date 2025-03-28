@@ -13,33 +13,32 @@ const Contact = () => {
         <form
           action="https://formspree.io/f/xrbpaqvb"
           method="POST"
-          className="space-y-4"
+          className="flex flex-col space-y-4"
         >
           <input
             type="text"
             name="name"
-            placeholder="Your Name"
+            placeholder="Your Name*"
             required
-            className="w-full p-3 border rounded"
+            className="p-3 border rounded"
           />
 
           <input
             type="email"
             name="email"
-            placeholder="Your Email"
+            placeholder="Your Email*"
             required
-            className="w-full p-3 border rounded"
+            className="p-3 border rounded"
           />
 
           <textarea
             name="message"
-            placeholder="Your Message"
+            placeholder="Type your message here..."
             required
             rows="4"
-            className="w-full p-3 border rounded"
+            className="p-3 border rounded"
           ></textarea>
 
-          {/* Formspree redirect */}
           <input
             type="hidden"
             name="_redirect"
@@ -48,7 +47,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full p-3 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 transition"
+            className="p-3 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 transition"
           >
             Send Message 🚀
           </button>
