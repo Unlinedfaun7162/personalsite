@@ -23,9 +23,9 @@ const Home = () => {
         {/* Right side profile image */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <img
-            src={profileImage}
-            alt="Profile"
-            className="rounded-full w-64 h-64 object-cover"
+           src={`${process.env.PUBLIC_URL}/image.png`}
+             alt="Profile"
+             className="rounded-full w-64 h-64 object-cover"
           />
         </div>
       </div>

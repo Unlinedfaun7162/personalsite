@@ -35,6 +35,7 @@ function App() {
           <Route path="/achievements/pizza-store" element={<PizzaStore />} />
           <Route path="/achievements/academic-excellence" element={<AcademicExcellence />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Home />} />
           {/* Future detailed pages will be added here */}
         </Routes>
       </div>
