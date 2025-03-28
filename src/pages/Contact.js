@@ -9,35 +9,37 @@ const Contact = () => {
         </h2>
         <p className="text-gray-600 mb-6">Have questions or want to connect? Fill out the form below!</p>
 
-        {/* Form */}
-        <form className="space-y-4">
-          <div>
-            <input
-              type="text"
-              placeholder="Your Name*"
-              className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-            />
-          </div>
+        <form
+          action="https://formspree.io/f/xrbpaqvb"
+          method="POST"
+          className="space-y-4"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name*"
+            required
+            className="w-full px-4 py-3 rounded-xl border border-gray-300"
+          />
 
-          <div>
-            <input
-              type="email"
-              placeholder="Your Email*"
-              className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-            />
-          </div>
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email*"
+            required
+            className="w-full px-4 py-3 rounded-xl border border-gray-300"
+          />
 
-          <div>
-            <textarea
-              placeholder="Type your message here..."
-              className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-none h-32"
-            ></textarea>
-          </div>
+          <textarea
+            name="message"
+            placeholder="Type your message here..."
+            required
+            className="w-full px-4 py-3 rounded-xl border border-gray-300 h-32"
+          ></textarea>
 
-          {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-xl transition duration-300 shadow-lg"
+            className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-xl"
           >
             Send Message 🚀
           </button>
