@@ -2,11 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-400 to-blue-200 px-6">
-      <div className="bg-white shadow-2xl rounded-2xl p-8 md:p-12 max-w-lg w-full text-center">
-        <h2 className="text-4xl font-extrabold text-gray-900 flex justify-center items-center mb-8">
-          <span className="mr-2">📩</span> Contact Me
-        </h2>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-6">
+      <div className="bg-white shadow-2xl rounded-2xl p-12 max-w-2xl text-center">
+        <h1 className="text-4xl font-extrabold mb-6">📩 Contact Me</h1>
+
         <p className="text-gray-600 mb-6">
           Have questions or want to connect? Fill out the form below!
         </p>
@@ -19,27 +18,28 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your Name*"
+            placeholder="Your Name"
             required
-            className="w-full px-4 py-3 rounded-xl border border-gray-300"
+            className="w-full p-3 border rounded"
           />
 
           <input
             type="email"
             name="email"
-            placeholder="Your Email*"
+            placeholder="Your Email"
             required
-            className="w-full px-4 py-3 rounded-xl border border-gray-300"
+            className="w-full p-3 border rounded"
           />
 
           <textarea
             name="message"
-            placeholder="Type your message here..."
+            placeholder="Your Message"
             required
-            className="w-full px-4 py-3 rounded-xl border border-gray-300 h-32"
+            rows="4"
+            className="w-full p-3 border rounded"
           ></textarea>
 
-          {/* Redirect to Thank You page after submit */}
+          {/* Formspree redirect */}
           <input
             type="hidden"
             name="_redirect"
@@ -48,7 +48,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-xl"
+            className="w-full p-3 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 transition"
           >
             Send Message 🚀
           </button>
