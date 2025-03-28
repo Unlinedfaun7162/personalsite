@@ -9,6 +9,7 @@ import GroceryStore from "./pages/GroceryStore";
 import PizzaStore from "./pages/PizzaStore";
 import AcademicExcellence from "./pages/AcademicExcellence";
 import Contact from "./pages/Contact";
+import ThankYou from "./pages/ThankYou";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/achievements/grocery-store-app" element={<GroceryStore />} />
           <Route path="/achievements/pizza-store" element={<PizzaStore />} />
           <Route path="/achievements/academic-excellence" element={<AcademicExcellence />} />
+          <Route path="/thankyou" element={<ThankYou />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
           {/* Future detailed pages will be added here */}
