@@ -12,7 +12,7 @@ const Contact = () => {
        <form
          action="https://formspree.io/f/xrbpaqvb"
          method="POST"
-         target="_blank"
+         noValidate
          className="space-y-4"
        >
          <input
@@ -45,6 +45,7 @@ const Contact = () => {
            Send Message 🚀
          </button>
        </form>
+
       </div>
     </div>
   );
