@@ -12,7 +12,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/personalsite">
       {/* Navigation Bar */}
       <nav className="p-4 bg-gray-900 text-white flex justify-center space-x-12">
         <Link to="/" className="hover:text-gray-400">Home</Link>

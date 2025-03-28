@@ -52,7 +52,7 @@ const GroceryStore = () => {
         {Array.from({ length: 8 }).map((_, index) => (
           <img
             key={index}
-            src={`./${process.env.PUBLIC_URL}/database${index + 1}.png`}
+            src={`/database${index + 1}.png`}
             alt={`Database Design ${index + 1}`}
             className="rounded-lg shadow-md w-full h-auto object-contain border"
           />
