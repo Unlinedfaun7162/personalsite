@@ -69,7 +69,7 @@ const Achievements = () => {
         {/* Resume Download Button (Centered Below Grid) */}
         <div className="mt-10 flex justify-center">
           <a
-            href="/resume.docx"
+            href={`${process.env.PUBLIC_URL}/resume.docx`}
             download="Biswash_Lamsal_Resume.docx"
             className="px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-400 transition"
           >
