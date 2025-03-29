@@ -10,6 +10,7 @@ import PizzaStore from "./pages/PizzaStore";
 import AcademicExcellence from "./pages/AcademicExcellence";
 import Contact from "./pages/Contact";
 import ThankYou from "./pages/ThankYou";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Link to="/achievements" className="hover:text-gray-400">Achievements</Link>
         <Link to="/about" className="hover:text-gray-400">About</Link>
         <Link to="/contact" className="hover:text-gray-400">Contact</Link>
+        <Link to="/blog" className="hover:text-gray-400">Blog</Link>
       </nav>
 
       {/* Page Content */}
@@ -37,6 +39,7 @@ function App() {
           <Route path="/achievements/academic-excellence" element={<AcademicExcellence />} />
           <Route path="/thankyou" element={<ThankYou />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="*" element={<Home />} />
           {/* Future detailed pages will be added here */}
         </Routes>
