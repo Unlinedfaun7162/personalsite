@@ -35,7 +35,7 @@ const PizzaStore = () => {
       <h2 className="text-2xl font-bold mt-8 mb-4">📸 Login Page Preview</h2>
       <div className="flex justify-center">
         <img
-          src="/pizza1.png"
+          src={`${process.env.PUBLIC_URL}/pizza1.png`}
           alt="Pizza Store Login Page"
           className="rounded-lg shadow-md w-3/5 md:w-2/5"
         />
