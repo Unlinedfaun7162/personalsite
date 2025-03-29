@@ -20,8 +20,8 @@ function App() {
         <Link to="/" className="hover:text-gray-400">Home</Link>
         <Link to="/achievements" className="hover:text-gray-400">Achievements</Link>
         <Link to="/about" className="hover:text-gray-400">About</Link>
-        <Link to="/contact" className="hover:text-gray-400">Contact</Link>
         <Link to="/blog" className="hover:text-gray-400">Blog</Link>
+        <Link to="/contact" className="hover:text-gray-400">Contact</Link>
       </nav>
 
       {/* Page Content */}
