@@ -50,11 +50,11 @@ const GroceryStore = () => {
 
       {/* Image Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {Array.from({ length: 8 }).map((_, index) => (
+        {[...Array(8)].map((_, i) => (
           <img
-            key={index}
-            src={`${process.env.PUBLIC_URL}/Database${index + 1}.png`}
-            alt={`Database Design ${index + 1}`}
+            key={i}
+            src={`${process.env.PUBLIC_URL}/Database${i + 1}.png`}
+            alt={`Database Design ${i + 1}`}
             className="rounded-lg shadow-md w-full h-auto object-contain border"
           />
         ))}
