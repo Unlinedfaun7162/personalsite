@@ -48,7 +48,8 @@ const Contact = () => {
 
          <button
            type="submit"
-           className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-4 rounded-xl transition shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+           className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 rounded-xl shadow-md focus:outline-none focus:ring-2 focus:ring-blue-300 z-10 relative"
+           style={{ backgroundColor: '#2563eb', color: '#fff' }}
          >
            🚀 Send Message
          </button>
