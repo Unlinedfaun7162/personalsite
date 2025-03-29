@@ -126,16 +126,12 @@ const Home = () => {
         <h2 className="text-2xl font-semibold">📬 Get in Touch</h2>
         <p className="mt-2 text-gray-300">Feel free to reach out for collaboration or inquiries.</p>
 
-       <div className="mt-12 py-6 bg-gray-900 text-white text-center">
-         <h2 className="text-2xl font-semibold">📬 Get in Touch</h2>
-         <p className="mt-2 text-gray-300">Feel free to reach out for collaboration or inquiries.</p>
-
-         <div className="mt-4 flex justify-center">
-           <a href="mailto:lbiswash228@gmail.com" className="text-blue-400 hover:underline">
-             Email
-           </a>
-         </div>
-       </div>
+        <div className="mt-4 flex justify-center">
+          <a href="mailto:lbiswash228@gmail.com" className="text-blue-400 hover:underline">
+            Email
+          </a>
+        </div>
+      </div>
 
       {/* Footer Section */}
       <footer className="py-6 bg-gray-900 text-white text-center">
