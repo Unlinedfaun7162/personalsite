@@ -19,7 +19,7 @@ const AcademicExcellence = () => {
       <h2 className="text-2xl font-bold mt-8 mb-4">📚 Relevant Courses</h2>
       <ul className="list-disc pl-5 space-y-2">
         <li>Database Systems</li>
-        <li>Intro to Software Engineering</li>
+        <li>Software Engineering</li>
         <li>Computer Organization and Architecture</li>
         <li>Calculus II and Linear Algebra</li>
       </ul>
