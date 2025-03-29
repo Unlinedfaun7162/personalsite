@@ -46,12 +46,12 @@ const Contact = () => {
             value="https://unlinedfaun7162.github.io/personalsite/thankyou"
           />
 
-          <button
-            type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 rounded-xl transition shadow-lg"
-          >
-            🚀 Send Message
-          </button>
+         <button
+           type="submit"
+           className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-4 rounded-xl transition shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+         >
+           🚀 Send Message
+         </button>
         </form>
       </div>
     </div>
