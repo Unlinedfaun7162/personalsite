@@ -129,13 +129,7 @@ const Home = () => {
         <div className="mt-4 flex justify-center space-x-6">
           <a href="mailto:lbiswash228@gmail.com" className="text-blue-400 hover:underline">
             Email
-          </a>
-          <a href="https://github.com/yourgithub" target="_blank" className="text-blue-400 hover:underline">
-            GitHub
-          </a>
-          <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" className="text-blue-400 hover:underline">
-            LinkedIn
-          </a>
+         
         </div>
       </div>
 
